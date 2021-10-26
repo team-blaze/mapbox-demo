@@ -31,12 +31,29 @@
       #map {
         width: 100%; 
         height: 500px;
+        margin-bottom: 20px;
       }
     </style>
   </head>
   <body>
   <main>
     <div id="map"></div>
+    <div id="shortcuts">
+      <h3>Map Navigation Keyboard shortcuts</h1>
+      <ul>
+        <li><code>Tab</code>: Move to next feature</li>
+        <li><code>ShiftTab</code>: Move to previous feature</li>
+        <li><code>=</code> / <code>+</code>: Increase the zoom level by 1.</li>
+        <li><code>Shift-=</code> / <code>Shift-+</code>: Increase the zoom level by 2.</li>
+        <li><code>-</code>: Decrease the zoom level by 1.</li>
+        <li><code>Shift--</code>: Decrease the zoom level by 2.</li>
+        <li>Arrow keys: Pan by 100 pixels.</li>
+        <li><code>Shift+⇢</code>: Increase the rotation by 15 degrees.</li>
+        <li><code>Shift+⇠</code>: Decrease the rotation by 15 degrees.</li>
+        <li><code>Shift+⇡</code>: Increase the pitch by 10 degrees.</li>
+        <li><code>Shift+⇣</code>: Decrease the pitch by 10 degrees.</li>
+      </ul>
+    </div>
   </main>
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
   <script src="mapbox-gl-accessibility.js"></script>
